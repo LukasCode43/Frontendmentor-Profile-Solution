@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 375px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    margin: 2em;
+    border-radius: 50%;
+    height: 100px
+}
+
+h1 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.location {
+    
+    color: hsl(75, 94%, 57%);
+    size: 12px;
+    margin-top: .5em;
+    font-weight: 600;
+}
+
+.profession {
+    color: hsl(0, 0%, 50%);
+    size: 12px;
+    margin-top: 2em;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    margin: 7px 30px;
+    background-color: hsl(0, 0%, 20%);
+    padding:  10px 20px;
+    font-weight: 600;
+}
+
+a:hover,
+a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%)
+}
+
+
+
+
